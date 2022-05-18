@@ -134,5 +134,6 @@ alias hosts='sudo nano /etc/hosts'
 alias gitc='git commit -m'
 alias confc='config commit -m'
 
-alias ls='ls --color --group-directories-first'
-alias lsa='ls -alFh --group-directories-first'
+alias ls='ls --color --group-directories-first' #ls, but sort by directory first
+alias ll='ls -alFh --group-directories-first' #ls, but show all, list format, human readable size, sort by directory first
+alias lc='ls -aCFh --group-directories-first' #ls, but show all, column format, human readable size, sort by directory first

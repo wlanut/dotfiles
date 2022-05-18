@@ -115,6 +115,22 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias dockup='docker-compose -f /home/omelsherif/docker/docker-compose.yml up -d'
+
+#ansible
+alias inventory="sudo nano /etc/ansible/hosts"
+alias play="ansible-playbook"
+
+#General
+alias wol3020="wakeonlan 3020pc"
 alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8000 -v /home/omelsherif/.config/appdata/mkdocs-wiki/mkdocs:/docs squidfunk/mkdocs-material'
 alias config='/usr/bin/git --git-dir=/home/omelsherif/.cfg/ --work-tree=/home/omelsherif'
+alias dc='docker-compose'
+alias dcup='docker-compose -f ~/docker/docker-compose.yml up -d'
+alias dk='docker'
+alias rtfm='man'
+alias cls='clear'
+alias fstab='sudo nano /etc/fstab'
+alias hosts='sudo nano /etc/hosts'
+alias gc='git commit -m'
+alias ls='ls --color --group-directories-first'
+alias lsa='ls -alFh --group-directories-first'

@@ -124,6 +124,8 @@ alias play="ansible-playbook"
 alias wol3020="wakeonlan 3020pc"
 alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8000 -v /home/omelsherif/.config/appdata/mkdocs-wiki/mkdocs:/docs squidfunk/mkdocs-material'
 alias config='/usr/bin/git --git-dir=/home/omelsherif/.cfg/ --work-tree=/home/omelsherif'
+alias conf='config'
+
 alias dc='docker-compose'
 alias dcup='docker-compose -f ~/docker/docker-compose.yml up -d'
 alias dk='docker'

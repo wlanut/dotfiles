@@ -120,22 +120,22 @@ fi
 alias inventory="sudo nano /etc/ansible/hosts"
 alias play="ansible-playbook"
 
-#General
-alias wol3020="wakeonlan 3020pc"
+#Docker
 alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8000 -v /home/omelsherif/.config/appdata/mkdocs-wiki/mkdocs:/docs squidfunk/mkdocs-material'
-alias config='/usr/bin/git --git-dir=/home/omelsherif/.cfg/ --work-tree=/home/omelsherif'
-alias conf='config'
-
 alias dc='docker-compose'
 alias dcup='docker-compose -f ~/docker/docker-compose.yml up -d'
 alias dk='docker'
+
+#General
+alias wol3020="wakeonlan 3020pc"
 alias rtfm='man'
 alias cls='clear'
 alias fstab='sudo nano /etc/fstab'
 alias hosts='sudo nano /etc/hosts'
-alias gitc='git commit -m'
-alias confc='config commit -m'
-
 alias ls='ls --color --group-directories-first' #ls, but sort by directory first
 alias ll='ls -alFh --group-directories-first' #ls, but show all, list format, human readable size, sort by directory first
 alias lc='ls -aCFh --group-directories-first' #ls, but show all, column format, human readable size, sort by directory first
+
+alias config='/usr/bin/git --git-dir=/home/omelsherif/.cfg/ --work-tree=/home/omelsherif'
+alias conf='config'
+alias confc='config commit -m'

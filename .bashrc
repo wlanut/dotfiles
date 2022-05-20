@@ -138,8 +138,8 @@ alias lc='ls -aCFh --group-directories-first' #ls, but show all, column format, 
 
 alias config='/usr/bin/git --git-dir=/home/omelsherif/.cfg/ --work-tree=/home/omelsherif'
 alias conf='config'
-alias confc='config commit -m'
-alias confac='config commit -am'
+alias configc='config commit -m'
+alias configac='config commit -am'
 
 if [ -f $HOME/.start_agent ]; then
     . $HOME/.start_agent

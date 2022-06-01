@@ -127,6 +127,8 @@ alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8
 alias dc='docker-compose'
 alias dcup='docker-compose -f ~/docker/docker-compose.yml up -d'
 alias dk='docker'
+alias dl='docker logs'
+alias dr='docker restart'
 
 #General
 alias wol3020="wakeonlan 3020pc"

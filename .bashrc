@@ -144,8 +144,10 @@ alias configc='config commit -m'
 alias configac='config commit -am'
 
 killall ssh-agent
+config pull
 
 if [ -f $HOME/.start_agent ]; then
     eval "$(ssh-agent -s)"
     . $HOME/.start_agent
 fi
+

@@ -119,6 +119,8 @@ fi
 #ansible
 alias inventory="sudo nano /etc/ansible/hosts"
 alias play="ansible-playbook"
+alias encrypt="ansible-vault encrypt"
+alias decrypt="ansible-vault decrypt"
 
 #Docker
 alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8000 -v /home/omelsherif/.config/appdata/mkdocs-wiki/mkdocs:/docs squidfunk/mkdocs-material'
@@ -141,6 +143,9 @@ alias conf='config'
 alias configc='config commit -m'
 alias configac='config commit -am'
 
+killall ssh-agent
+
 if [ -f $HOME/.start_agent ]; then
+    eval "$(ssh-agent -s)"
     . $HOME/.start_agent
 fi

@@ -1,14 +1,3 @@
-1ad534ae8a17:
-  nodename: 1ad534ae8a17
-  hostname: 1ad534ae8a17
-  osVersion: 5.4.0-113-generic
-  osFamily: unix
-  osArch: amd64
-  description: Rundeck server node
-  osName: Linux
-  username: rundeck
-  tags: ''
-
 ubnt-docker-media:
   description: ubnt-docker-media
   hostname: 192.168.1.30

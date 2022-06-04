@@ -1,0 +1,36 @@
+1ad534ae8a17:
+  nodename: 1ad534ae8a17
+  hostname: 1ad534ae8a17
+  osVersion: 5.4.0-113-generic
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: rundeck
+  tags: ''
+
+ubnt-docker-media:
+  description: ubnt-docker-media
+  hostname: 192.168.1.30
+  nodename: ubnt-docker-media
+  osArch: amd64
+  osFamily: unix
+  osName: Linux
+  osVersion: 5.11.0-7612-generic
+  tags: 'docker'
+  username: omelsherif
+  ssh-key-storage-path: keys/id_rsa
+  ssh-key-passphrase-storage-path: keys/id_rsa-pass
+
+ubnt-docker-plex:
+  description: ubnt-docker-plex
+  hostname: 192.168.1.32
+  nodename: ubnt-docker-plex
+  osArch: amd64
+  osFamily: unix
+  osName: Linux
+  osVersion: 5.11.0-7612-generic
+  tags: 'docker'
+  username: omelsherif
+  ssh-key-storage-path: keys/id_rsa
+  ssh-key-passphrase-storage-path: keys/id_rsa-pass

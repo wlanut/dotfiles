@@ -126,6 +126,7 @@ alias decrypt="ansible-vault decrypt"
 alias mkserve='docker stop mkserve; docker run --name mkserve --rm -it -p 8000:8000 -v /home/omelsherif/.config/appdata/mkdocs-wiki/mkdocs:/docs squidfunk/mkdocs-material'
 alias dc='docker-compose'
 alias dcup='docker-compose -f ~/docker/docker-compose.yml up -d'
+alias dcpull='docker-compose -f ~/docker/docker-compose.yml pull'
 alias dk='docker'
 alias dl='docker logs'
 alias dr='docker restart'
